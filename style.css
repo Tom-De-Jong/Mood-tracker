@@ -1,0 +1,71 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.moodDiv{
+text-align: center;
+}
+
+.Header1{
+    font-family: "Cal Sans", sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 5px #888787;
+    margin: 40px;
+}
+
+.unorderdList{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin-top: 100px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.unorderdList, li{
+    padding: 8px;
+}
+
+li{
+    transition: ease 0.3s;
+}
+
+li:hover{
+    letter-spacing: 5px;
+    color: rgb(87, 87, 87);
+}
+
+.input1{
+margin-top: 20px;
+width: 200px;
+height: 110px;
+border: solid 2px black;
+border-radius: 15px;
+font-family: "Cal Sans", sans-serif;
+font-size: 15px;
+}
+
+.input1:focus{
+    margin-top: 20px;
+    border: solid 2px black;
+    border-radius: 15px;
+    }
+
+.button1{
+
+width: 220px;
+height: 40px;
+border: solid 2px black;
+border-radius: 15px;
+font-family: "Cal Sans", sans-serif;
+font-size: 20px;
+letter-spacing: 5px;
+}
+
+.reasoncss{
+    font-family: "Cal Sans", sans-serif;
+    text-align: center;
+    font-size: 20px;
+}

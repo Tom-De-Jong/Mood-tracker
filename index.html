@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 class="Header1">Mood tracker</h1>
+    
+    <div class="moodDiv">
+        <ul class="unorderdList">
+            <li onclick="Happy()" class="listItem">Happy</li>
+            <li onclick="Unamused()" class="listItem">Unamused</li>
+            <li onclick="Bored()" class="listItem">Bored</li>
+            <li onclick="Sad()" class="listItem">Sad</li>
+        </ul>
+
+        <form id="moodForm">
+            <textarea class="input1" id="textArea"></textarea>
+                <br>
+            <button type="submit" class="button1">Save</button>
+        </form>
+
+            <br><br>
+
+        <h1 class="Header1">Today's mood:</h1>
+        <p id="moodDisplay" class="reasoncss"></p>
+        <p id="reasonDisplay" class="reasoncss"></p>
+    </div>
+</body>
+</html>
